@@ -81,7 +81,6 @@ Example of assigning a vector of values to this attribute:
 |romantic|	intimate|	touristy|	hipster	|divey	|classy|	trendy	|upscale|	casual|
 |:--------:|:---------:|:---------:|:---------:|:------:|:------:|:--------:|:-------:|:-------:|
 |false  	|false	   |  false	 |   true	 | false	| false	|  false	 | false	 | false|
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|--------:|
 |  0	    |  0     |    0   |    1   |   	0   |   	0   |   	0   |    	0  |   	0   |
 
 The final value assigned to this attribute is: 0,0,0,1,0,0,0,0,0
@@ -127,8 +126,9 @@ This is a numeric type of attribute
 
 The following table shows how the attributes are represented as vectors of values for calculating similarty. 
 
-Stars	Good for	 Price range	Parking	Reservations	Ambience	     Noice level	Wi-Fi	Out. seating	Attire
-  4	 0,0,0,1,0,0	    2        	1       	0   	  0,0,0,1,0,0,0,0,0	   2	         1	     1	        1
+|Stars	|Good for	| Price range|	Parking	|Reservations	|Ambience	 | Noice level|	Wi-Fi|	Out. seating|	Attire|
+|:--------:|:---------:|:---------:|:---------:|:------:|:------:|:--------:|:-------:|:-------:|:-------:|
+| 4	 |0,0,0,1,0,0|	    2    |    	1   |    	0  | 	  0,0,0,1,0,0,0,0,0|	   2	   |      1	  |   1	    |    1|
 Final vector: 4,0,0,0,1,0,0,2,1,0, 0,0,0,1,0,0,0,0,0,2,1,1,1
 
 Category attribute is not included because it is used for filtering the dataset, and Longitude and Latitude attributes are used for calculating the distance.
