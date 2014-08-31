@@ -21,7 +21,7 @@ Attributes for each restaurant taken from the dataset, modified and used in the 
 **Stars** – The number of stars represents the evaluation of a restaurant’s quality as perceived by its customers/visitors. The more the stars, the better the quality of the restaurant. Evaluation is done by the “Forbes Travel Guide”.
 This is an ordinal type of attribute with possible values: 1,2,3,4,5. 
 
-2. Good for - Represents the meal(s) that a restaurant offers.
+**Good for** - Represents the meal(s) that a restaurant offers.
 This is a nominal type of attribute with possible values:
 
 *	dessert
@@ -33,14 +33,14 @@ This is a nominal type of attribute with possible values:
 
 It is represented as a vector of boolean values (0 – false, 1 - true). For an example, see below the assignment of values to the Ambience attribute.
 
-3. Price range – Price range for a meal in a restaurant.
+**Price range** – Price range for a meal in a restaurant.
 This is an ordinal type of attribute with possible values:
 
 *	1 – less than 8$ per person
 *	2 – between 8$ and 15$ per person
 *	3 – more than 15$ per person
 
-4. Category – Category of a restaurant.
+**Category** – Category of a restaurant.
 This is a nominal type of restaurant. Some of the possible values: 
 
 *	Chinese
@@ -48,7 +48,7 @@ This is a nominal type of restaurant. Some of the possible values:
 *	Mexican
 *	…
 
-5. Parking – Is there a parking in the vicinity of a restaurant.
+**Parking** – Is there a parking in the vicinity of a restaurant.
 This is a nominal (binary) type of attribute with possible values:
 
 *	1 – there is a parking
@@ -56,14 +56,14 @@ This is a nominal (binary) type of attribute with possible values:
 
 Value 1 is assigned if in the original dataset the restaurant has at least one of the following kinds of parking places: garage, street, lot, valet, validated. Otherwise the assigned value is 0.
 
-6. Reservations – Is the reservation needed.
+**Reservations** – Is the reservation needed.
 
 *	1 – reservation is needed
 *	0 – no reservation is needed
 
 Value 1 is assigned  if the value of the attribute “Takes reservations” in the original dataset is true. Otherwise assigned value is 0.
 
-7. Ambience – Ambience in restaurant
+**Ambience** – Ambience in restaurant
 This is a nominal type of attribute with possible values:
 
 *	romantic
@@ -85,7 +85,7 @@ Example of assigning a vector of values to this attribute:
 
 The final value assigned to this attribute is: 0,0,0,1,0,0,0,0,0
 
-8. Noise level – Level of noise in a restaurant.
+**Noise level** – Level of noise in a restaurant.
 This is an ordinal type of attribute with possible values:
 
 *	1
@@ -94,7 +94,7 @@ This is an ordinal type of attribute with possible values:
 
 Value 1 is assigned if the value of attribute “Noise level” in the original dataset is quiet, value 2 for average, and value 3 for loud.
 
-9. Wi-Fi – Is there free wi-fi in the restaurant
+**Wi-Fi** – Is there free wi-fi in the restaurant
 This is a nominal (binary) type of attribute with possible values:
 
 *	0
@@ -102,7 +102,7 @@ This is a nominal (binary) type of attribute with possible values:
 
 Value 1 is assigned if the value of the attribute “Wi-Fi” in the original dataset is free. Otherwise (i.e., for no value) the assigned value is 0.
 
-10. Outdoor Seating – Does the restaurant have a garden for guests.
+**Outdoor Seating** – Does the restaurant have a garden for guests.
 This is a nominal (binary) type of attribute with possible values:
 
 *	0
@@ -110,7 +110,7 @@ This is a nominal (binary) type of attribute with possible values:
 
 Value 1 is assigned if the value of the attribute “Outdoor Seating” in the original dataset is true. Otherwise, the assigned value is 0.
 
-11. Attire – Attire that restaurants demand.
+**Attire** – Attire that restaurants demand.
 This is a nominal (binary) type of attribute with possible values:
 
 *	1
@@ -118,10 +118,10 @@ This is a nominal (binary) type of attribute with possible values:
 
 Value 1 is assigned if the value of the attribute “Attire” in the original dataset is casual. Otherwise (i.e., for dressy value) the assigned value is 2.
 
-12. Longitude – Longitude of a restaurant.
+**Longitude** – Longitude of a restaurant.
 This is a numeric type of attribute
 
-13. Latitude – Latitude of a restaurant.
+**Latitude** – Latitude of a restaurant.
 This is a numeric type of attribute
 
 The following table shows how the attributes are represented as vectors of values for calculating similarty. 
