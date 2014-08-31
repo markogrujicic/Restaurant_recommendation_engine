@@ -146,9 +146,9 @@ The application displays at most five top restaurants, i.e., restaurants with th
 # 4. Technical realisation
 
 This application was written in programming language Java, in Eclipse IDE.
--[json-simple.jar](https://code.google.com/p/json-simple/) was used for working with [.json](http://json.org/) dataset and objects.
--[commons-math-2.2.jar](http://commons.apache.org/proper/commons-math/download_math.cgi) was used for calculating the Pearson correlation coefficient, using correlation(double[] xArray,double[] yArray) method of [PearsonsCorrelation class]((http://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.html)).
--[JmapViewer.jar](http://wiki.openstreetmap.org/wiki/JMapViewer) was used for showing a map with the location of the user and recommended restaurants. 
+* [json-simple.jar](https://code.google.com/p/json-simple/) was used for working with [.json](http://json.org/) dataset and objects.
+* [commons-math-2.2.jar](http://commons.apache.org/proper/commons-math/download_math.cgi) was used for calculating the Pearson correlation coefficient, using correlation(double[] xArray,double[] yArray) method of [PearsonsCorrelation class]((http://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.html)).
+* [JmapViewer.jar](http://wiki.openstreetmap.org/wiki/JMapViewer) was used for showing a map with the location of the user and recommended restaurants. 
 
 # 5. Acknowledgements
 
