@@ -10,11 +10,8 @@ The recommendation engine uses the Pearson correlation coefficient to calculate 
 Project workflow consisted of the following phases:
 
 - Obtaining a dataset
-
 - Preparing a dataset for the recommendation engine 
-
 - Creating the recommendation engine
-
 - Creating an application
 
 # 2. Dataset
@@ -23,27 +20,30 @@ Attributes for each restaurant taken from the dataset, modified and used in the 
 
 1. Stars – The number of stars represents the evaluation of a restaurant’s quality as perceived by its customers/visitors. The more the stars, the better the quality of the restaurant. Evaluation is done by the “Forbes Travel Guide”.
 
-- This is an ordinal type of attribute with possible values: 1,2,3,4,5. 
+This is an ordinal type of attribute with possible values: 1,2,3,4,5. 
 
-2.  Good for - Represents the meal(s) that a restaurant offers.
-- This is a nominal type of attribute with possible values:
-•	dessert
-•	breakfast 
-•	brunch
-•	lunch
-•	dinner 
-•	latenight
+2. Good for - Represents the meal(s) that a restaurant offers.
+
+This is a nominal type of attribute with possible values:
+-	dessert
+-	breakfast 
+-	brunch
+-	lunch
+-	dinner 
+-	latenight
 
 It is represented as a vector of boolean values (0 – false, 1 - true). For an example, see below the assignment of values to the Ambience attribute.
 
 3. Price range – Price range for a meal in a restaurant.
-- This is an ordinal type of attribute with possible values:
-•	1 – less than 8$ per person
-•	2 – between 8$ and 15$ per person
-•	3 – more than 15$ per person
+
+This is an ordinal type of attribute with possible values:
+-	1 – less than 8$ per person
+-	2 – between 8$ and 15$ per person
+-	3 – more than 15$ per person
 
 4. Category – Category of a restaurant.
-- This is a nominal type of restaurant. Some of the possible values: 
+
+This is a nominal type of restaurant. Some of the possible values: 
 •	Chinese
 •	American
 •	Mexican
