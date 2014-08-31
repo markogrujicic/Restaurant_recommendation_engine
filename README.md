@@ -18,11 +18,11 @@ Project workflow consisted of the following phases:
 
 Attributes for each restaurant taken from the dataset, modified and used in the project are:
 
-1. Stars – The number of stars represents the evaluation of a restaurant’s quality as perceived by its customers/visitors. The more the stars, the better the quality of the restaurant. Evaluation is done by the “Forbes Travel Guide”.
+- 1. Stars – The number of stars represents the evaluation of a restaurant’s quality as perceived by its customers/visitors. The more the stars, the better the quality of the restaurant. Evaluation is done by the “Forbes Travel Guide”.
 
 This is an ordinal type of attribute with possible values: 1,2,3,4,5. 
 
-2. Good for - Represents the meal(s) that a restaurant offers.
+- 2. Good for - Represents the meal(s) that a restaurant offers.
 
 This is a nominal type of attribute with possible values:
 -	dessert
