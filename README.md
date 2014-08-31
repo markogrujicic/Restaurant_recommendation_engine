@@ -78,9 +78,11 @@ This is a nominal type of attribute with possible values:
 
 Example of assigning a vector of values to this attribute:
 
-romantic	intimate	touristy	hipster	divey	classy	trendy	upscale	casual
- false 	false	    false	    true	  false	false	  false	  false	  false
-   0	      0	        0	        1      	0    	0     	0     	0     	0
+|romantic|	intimate|	touristy|	hipster	|divey	|classy|	trendy	|upscale|	casual|
+|:--------:|:---------:|:---------:|:---------:|:------:|:------:|:--------:|:-------:|:-------:|
+|false  	|false	   |  false	 |   true	 | false	| false	|  false	 | false	 | false|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|--------:|
+|  0	    |  0     |    0   |    1   |   	0   |   	0   |   	0   |    	0  |   	0   |
 
 The final value assigned to this attribute is: 0,0,0,1,0,0,0,0,0
 
