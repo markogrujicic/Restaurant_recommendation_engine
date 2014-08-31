@@ -25,12 +25,12 @@ This is an ordinal type of attribute with possible values: 1,2,3,4,5.
 - 2. Good for - Represents the meal(s) that a restaurant offers.
 
 This is a nominal type of attribute with possible values:
--	dessert
--	breakfast 
--	brunch
--	lunch
--	dinner 
--	latenight
+*	dessert
+*	breakfast 
+*	brunch
+*	lunch
+*	dinner 
+*	latenight
 
 It is represented as a vector of boolean values (0 – false, 1 - true). For an example, see below the assignment of values to the Ambience attribute.
 
