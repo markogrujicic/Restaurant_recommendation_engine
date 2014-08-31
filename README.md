@@ -1,15 +1,16 @@
- # 1. About the project
+
+# 1. About the project
  
-+The objective of this project was to develop a recommendation engine for restaurants using information from a publicly available dataset about restaurants located in the Phoenix City area. The developed recommendation engine was integrated in an application that  recommends restaurants based on a set of preferences expressed by the user. 
-+The dataset (in JSON format) was downloaded from the [Yelp](https://www.yelp.com/dataset_challenge) website, and then filtered out and adapted for this project. The filtered dataset contains JSON objects with data about restaurants in the Phoenix City area. Every object contains information about restaurant attributes. 
-+The recommendation engine uses the Pearson correlation coefficient to calculate similarity between user-specified values of restaurant attributes and restaurants in the dataset. The application recommends 5 restaurants with the highest value for the correlation coefficient. It also displays a map with map markers of the top 5 restaurants. 
+The objective of this project was to develop a recommendation engine for restaurants using information from a publicly available dataset about restaurants located in the Phoenix City area. The developed recommendation engine was integrated in an application that  recommends restaurants based on a set of preferences expressed by the user. 
+The dataset (in JSON format) was downloaded from the [Yelp](https://www.yelp.com/dataset_challenge) website, and then filtered out and adapted for this project. The filtered dataset contains JSON objects with data about restaurants in the Phoenix City area. Every object contains information about restaurant attributes. 
+The recommendation engine uses the Pearson correlation coefficient to calculate similarity between user-specified values of restaurant attributes and restaurants in the dataset. The application recommends 5 restaurants with the highest value for the correlation coefficient. It also displays a map with map markers of the top 5 restaurants. 
 
-+Project workflow consisted of the following phases:
+Project workflow consisted of the following phases:
 
-+-Obtaining a dataset
-+-Preparing a dataset for the recommendation engine 
-+-Creating the recommendation engine
-+-Creating an application
+-Obtaining a dataset
+-Preparing a dataset for the recommendation engine 
+-Creating the recommendation engine
+-Creating an application
 
 # 2. Dataset
 
