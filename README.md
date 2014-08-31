@@ -43,10 +43,10 @@ This is an ordinal type of attribute with possible values:
 4. Category – Category of a restaurant.
 This is a nominal type of restaurant. Some of the possible values: 
 
-•	Chinese
-•	American
-•	Mexican
-•	…
+*	Chinese
+*	American
+*	Mexican
+*	…
 
 5. Parking – Is there a parking in the vicinity of a restaurant.
 This is a nominal (binary) type of attribute with possible values:
