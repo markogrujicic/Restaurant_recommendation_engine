@@ -138,11 +138,13 @@ Category attribute is not included because it is used for filtering the dataset,
 The application collects information from users about their preferences when it comes to choosing a restaurant, and the current location of the user (Figure 1). Users click on the Match button and the application finds the best matches using the recommendation engine.
  
 ![Picture 1 - Figure 1](images/Figure1.png)
+
  Figure 1
  
 The application displays at most five top restaurants, i.e., restaurants with the highest Pearson correlation coefficient, and a map displaying the location of both the recommended restaurants and the user (Figure 2). User can choose where to go based on the recommendations and the distance which is displayed for each recommendation.
  
 ![Picture 2 - Figure 2](images/Figure2.png)
+
  Figure 2
 
 # 4. Technical realisation
